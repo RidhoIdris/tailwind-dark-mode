@@ -1,0 +1,16 @@
+@tailwind base;
+
+:root {
+  --color-bg-primary: white;
+  --color-text-primary:black;
+}
+
+/** purgecss start ignore */
+.theme-dark {
+  --color-bg-primary: black;
+  --color-text-primary: #fff;
+}
+/** purgecss end ignore */
+
+@tailwind components;
+@tailwind utilities;
